@@ -1,0 +1,9 @@
+img{
+    width: 45%;
+}
+
+button{
+    width: 10%;
+    display: flex;
+    cursor: pointer;
+}
