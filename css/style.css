@@ -2,10 +2,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     font-size: 15px;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 400;
+    font-size: 20px;
 }
 
 img{
+    margin-top: 40px;
     border-radius: 5px;
+    width: 100%;
 }
 
 header,footer{
@@ -16,10 +24,11 @@ header,footer{
 }
 
 article{
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 40px;
+    margin-bottom: 40px;
 }
-
 
 h1{
     margin-top: 40px;
@@ -36,16 +45,8 @@ figcaption{
     position: relative;
     margin-bottom: 40px;
     display: block;
+    font-style: italic;
 }
-
-
-.gun{
-    margin-top: 20px;
-    width: 35%;
-    max-width: 100%;
-    vertical-align: middle;
-}
-
 
 input{
     width: 4%;
@@ -64,4 +65,47 @@ input:hover{
 
 p:last-of-type{
     margin-bottom: 40px;
+}
+
+.logo{
+    width: 75px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+footer > p{
+    padding-left: 40px;
+    margin:0 auto;
+    width: 60vw;
+}
+
+@media screen and (max-width: 1000px) {
+    article{
+        width: 80vw;
+    }
+    footer > p{
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+    article{
+        width:100vw;
+        padding: 20px;
+    }
+    h1{
+        font-size: 180%;
+    }
 }
