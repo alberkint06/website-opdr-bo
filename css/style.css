@@ -1,24 +1,26 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
-    font-size: 15px;
+    font-size: 20px;
     box-sizing: border-box;
 }
 
 body{
     font-weight: 400;
     font-size: 20px;
+    background: rgb(24, 24, 36);
+    color:white;
 }
 
 img{
     margin-top: 40px;
-    border-radius: 5px;
-    width: 100%;
+    border-radius: 25px;
+    width: 90%;
 }
 header > a{
     display: flex;
     position: absolute;
-    padding-left: 1300px;
+    padding-left: 1250px;
     padding-top: 30px;
     color:white;
     text-decoration: none;
@@ -31,8 +33,22 @@ header,footer{
     background-color: black;
 }
 
+.Kevin{
+    background: linear-gradient(white, 50%, rgb(8, 244, 232));
+    color: black;
+    font-size: 20px;
+    
+}
+
+.KL{
+    background: linear-gradient(rgb(6, 217, 217),50%,white);
+    color: black;
+    font-size: 20px;
+
+}
+
 article{
-    width: 60vw;
+    width: 70vw;
     margin: 0 auto;
     padding: 40px;
     margin-bottom: 40px;
@@ -43,7 +59,7 @@ h1{
     text-align: center;
     font-family: 'Agency FB', sans-serif;
     font-size: 300%;
-    border: 1px solid black;
+    border: 2px solid white;
     margin-bottom: 40px;
 }
 
@@ -62,7 +78,7 @@ p:last-of-type{
 }
 
 .logo{
-    width: 75px;
+    width: 80px;
     margin-left: 15px;
     margin-top: 15px;
 }
